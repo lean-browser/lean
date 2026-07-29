@@ -1,12 +1,10 @@
-# Política de seguridad
+# Security policy
 
-La seguridad de quienes usan Lean Browser es una prioridad.
+Do not open a public issue with vulnerability details.
 
-## Cómo reportar una vulnerabilidad
+Use **Security → Report a vulnerability** when GitHub offers private vulnerability
+reporting for this repository. If that option is not available, open an issue
+asking for a private reporting channel without including technical details.
 
-Si encuentras un fallo de seguridad, **no abras un issue público**. Repórtalo de forma privada por cualquiera de estas vías:
-
-- El reporte privado de vulnerabilidades de GitHub: pestaña **Security → Report a vulnerability** de este repositorio.
-- Correo a **seguridad@useleanbrowser.com**.
-
-Cuando reportes, incluye si puedes: descripción del fallo, pasos para reproducirlo e impacto potencial. Responderemos lo antes posible.
+Include the affected version, a clear description, reproduction steps, and the
+potential impact when possible.

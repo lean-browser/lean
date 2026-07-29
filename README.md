@@ -1,23 +1,35 @@
 # Lean Browser
 
-Lean Browser es un navegador centrado en la privacidad, la calma y el control de la persona sobre su navegación.
+Lean Browser is a Chromium-based browser for calmer, more private browsing.
 
-## Qué ofrece
+## What Lean focuses on
 
-- **Contextos** — separa tu navegación en espacios aislados (trabajo, personal, temporal), cada uno con su propia sesión y estado.
-- **Lean Guard** — bloqueo de anuncios y rastreadores integrado, activable por contexto.
-- **Privacidad por defecto** — pensado para que lo privado sea lo normal, sin tener que configurar nada.
+- **Contexts** help keep browsing sessions and site state separate for work,
+  personal, banking, and temporary browsing.
+- **Lean Guard** blocks ads and trackers in the browser's network layer.
+- **Privacy by default** keeps the product focused without extra setup.
 
-## Base técnica
+## Repository scope
 
-Lean Browser se construye sobre [Chromium](https://www.chromium.org/), el proyecto de código abierto que también da base a otros navegadores. Este repositorio contiene el código propio de Lean; la base de Chromium se obtiene por separado.
+This is Lean's public source repository. It does not mirror the full
+[Chromium](https://www.chromium.org/) checkout; Lean-specific code and project
+files are published here separately from the upstream base.
 
-## Licencia
+- Website: [useleanbrowser.com](https://useleanbrowser.com)
+- Download: [useleanbrowser.com/download](https://useleanbrowser.com/download)
+- Security: [useleanbrowser.com/security](https://useleanbrowser.com/security)
+- Support: [useleanbrowser.com/support](https://useleanbrowser.com/support)
 
-El código de Lean Browser es **público y auditable**, bajo la licencia [PolyForm Noncommercial 1.0.0](LICENSE.md): cualquiera puede leerlo, compilarlo y modificarlo con fines **no comerciales**. El uso comercial queda reservado a Lean Browser.
+En español: [useleanbrowser.com/es/](https://useleanbrowser.com/es/)
 
-© Juan Henríquez. Todos los derechos reservados según los términos de la licencia.
+## License
 
-## Seguridad
+Lean Browser is published under the [PolyForm Noncommercial 1.0.0](LICENSE.md)
+license. You may read, build, and modify it for noncommercial purposes; the
+license does not grant commercial use.
 
-¿Encontraste un fallo de seguridad? Revisa [SECURITY.md](SECURITY.md).
+Copyright © Juan Henríquez. All rights reserved under the license terms.
+
+## Security
+
+Do not report vulnerabilities in public issues. See [SECURITY.md](SECURITY.md).
