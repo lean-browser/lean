@@ -1,35 +1,19 @@
 # Lean Browser
 
-Lean Browser is a Chromium-based browser for calmer, more private browsing.
+Lean es un navegador basado en Chromium para quien trabaja con varias cuentas. Cada una vive en su Contexto, con su propia sesión, y todos los Contextos están en la misma ventana.
 
-## What Lean focuses on
+Puedes tener el correo del trabajo y el personal abiertos a la vez sin cerrar sesión en ninguno. Si le dices a Lean que el banco va en Banca lo abre ahí siempre, aunque el enlace te llegue por el correo del trabajo. También trae Lean Guard, que bloquea anuncios y rastreadores en los sitios que visitas.
 
-- **Contexts** help keep browsing sessions and site state separate for work,
-  personal, banking, and temporary browsing.
-- **Lean Guard** blocks ads and trackers in the browser's network layer.
-- **Privacy by default** keeps the product focused without extra setup.
+Es gratis y está en beta. El instalador todavía no está publicado, cuando salga se va a descargar solo desde [useleanbrowser.com/descargas](https://useleanbrowser.com/descargas/).
 
-## Repository scope
+## Código y licencia
 
-This is Lean's public source repository. It does not mirror the full
-[Chromium](https://www.chromium.org/) checkout; Lean-specific code and project
-files are published here separately from the upstream base.
+En este repo va el código propio de Lean, Chromium no está copiado aquí. Todavía no está subido, por ahora están la licencia y cómo reportar fallos de seguridad.
 
-- Website: [useleanbrowser.com](https://useleanbrowser.com)
-- Download: [useleanbrowser.com/download](https://useleanbrowser.com/download)
-- Security: [useleanbrowser.com/security](https://useleanbrowser.com/security)
-- Support: [useleanbrowser.com/support](https://useleanbrowser.com/support)
+La licencia es [PolyForm Noncommercial 1.0.0](LICENSE.md). El uso comercial queda fuera.
 
-En español: [useleanbrowser.com/es/](https://useleanbrowser.com/es/)
+Copyright © Juan Henríquez.
 
-## License
+## Reportar un problema
 
-Lean Browser is published under the [PolyForm Noncommercial 1.0.0](LICENSE.md)
-license. You may read, build, and modify it for noncommercial purposes; the
-license does not grant commercial use.
-
-Copyright © Juan Henríquez. All rights reserved under the license terms.
-
-## Security
-
-Do not report vulnerabilities in public issues. See [SECURITY.md](SECURITY.md).
+Si algo no funciona, escríbelo en [useleanbrowser.com/reportar](https://useleanbrowser.com/reportar/). Los fallos de seguridad van en privado, está explicado en [SECURITY.md](SECURITY.md).
