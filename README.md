@@ -6,13 +6,13 @@ Puedes tener el correo del trabajo y el personal abiertos a la vez sin cerrar se
 
 Es gratis y está en beta. El instalador todavía no está publicado, cuando salga se va a descargar solo desde [useleanbrowser.com/descargas](https://useleanbrowser.com/descargas/).
 
-## Código y licencia
+## Licencia
 
-En este repo va el código propio de Lean, Chromium no está copiado aquí. Todavía no está subido, por ahora están la licencia y cómo reportar fallos de seguridad.
+El código de Lean no es público. Este repo tiene la política de seguridad y la licencia.
 
-La licencia es [PolyForm Noncommercial 1.0.0](LICENSE.md). El uso comercial queda fuera.
+Lean está basado en Chromium y usa componentes de terceros, que siguen bajo sus propias licencias.
 
-Copyright © Juan Henríquez.
+Copyright © Juan Henríquez. Todos los derechos reservados, ver [LICENSE.md](LICENSE.md).
 
 ## Reportar un problema
 
